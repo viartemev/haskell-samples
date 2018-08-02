@@ -1,3 +1,11 @@
+module Others.RecursiveDataStructures  
+( Tree(..)
+, singleton
+, treeInsert
+, treeElem
+, reverseTree
+) where
+
 infixr 5 :-:  
 data List a = Empty | a :-: (List a) deriving (Show, Read, Eq, Ord)  
 
